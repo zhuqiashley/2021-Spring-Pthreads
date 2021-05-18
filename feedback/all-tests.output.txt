@@ -1,0 +1,7 @@
+gcc -g -O2 --std=c99 -Wall -o 73974-zhuqiashley/2021-Spring-Pthreads/feedback/par_sumsq 73974-zhuqiashley/2021-Spring-Pthreads/feedback/par_sumsq.c -lpthread
+==== Test 01 (baseline) ====
+>>>> Result should be 14 2 1 3 in all cases
+>>>> ... with 1 worker 'real' time should be ~7 seconds
+time -p ./73974-zhuqiashley/2021-Spring-Pthreads/feedback/par_sumsq ./test-01.txt 1 2>&1
+../files/TestSuiteMakefile:46: recipe for target 'test01' failed
+make: *** [test01] Terminated
