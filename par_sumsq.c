@@ -1,7 +1,7 @@
 /*
   Author: Zhuqi You
   date: 03/27/2021
-  CS446-Project 5
+  Project 5
   POSIX Threads (pthreads) 
 */
 
